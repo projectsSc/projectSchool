@@ -15,12 +15,14 @@
   <button id="contiune">Кнопка</button>
 
   <script>
-    document.querySelector('#contiune').onclick = function(){
-      alert("Начинаю!")
-      let search = document.getElementById('h2_1')
-      search.color = 'white'
+    var x = 0
+    
+    document.querySelector('#contiune').onclick = function() {
+      if x == 0 {
+        document.write("My mom works as an accountant, she has a brother")
+      }
     }
   </script>
-
+  
 </body>
 </html>
