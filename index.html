@@ -12,12 +12,12 @@
   <h1>Проект по английскому языку</h1>
   <h2>Нажмите а кнопку для продолжения</h2>
   <h2 id='h2_1'>Тест</h2>
-  <button id="contiune">Кнопка</button>
+  <button onclick='click()' id="contiune">Кнопка</button>
 
   <script>
     var x = 0
     
-    document.querySelector('#contiune').onclick = function() {
+    function click() {
       if x == 0 {
         document.write("My mom works as an accountant, she has a brother")
       }
