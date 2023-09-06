@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Проект по английскому языку</h1>
+  <h2>Нажмите а кнопку для продолжения</h2>
+  <h2 id='h2_1'>Тест</h2>
+  <button id="contiune">Кнопка</button>
+
+  <script>
+    document.querySelector('#submit').onclick = function() {
+      alert("Начинаю!")
+      let search = document.getElementById('h2_1')
+      search.color = 'white'
+    }
+  </script>
+
+</body>
+</html>
